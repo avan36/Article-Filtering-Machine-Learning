@@ -1,0 +1,66 @@
+- TestSeq.print_stats TestSeq.simplest_train;
+Number of documents by category:
+  ECAT 1
+  GCAT 1
+Number of words by category:
+  ECAT 1
+  GCAT 1
+Frequencies:
+  ECAT: stock occured 1 times 
+  GCAT: congress occured 1 times 
+All categories: ECAT GCAT 
+Total number of documents:2
+Total number of distinct words:2
+val it = () : unit
+
+- TestSeq.print_stats TestSeq.simple_train;
+Number of documents by category:
+  ECAT 1
+  GCAT 1
+Number of words by category:
+  ECAT 2
+  GCAT 2
+Frequencies:
+  ECAT: price occured 1 times 
+  ECAT: stock occured 1 times 
+  GCAT: congress occured 1 times 
+  GCAT: court occured 1 times 
+All categories: ECAT GCAT 
+Total number of documents:2
+Total number of distinct words:4
+val it = () : unit
+
+- TestSeq.print_stats TestSeq.cross_train;
+Number of documents by category:
+  ECAT 1
+  GCAT 1
+Number of words by category:
+  ECAT 3
+  GCAT 3
+Frequencies:
+  ECAT: fell occured 1 times 
+  ECAT: price occured 1 times 
+  ECAT: stock occured 1 times 
+  GCAT: congress occured 1 times 
+  GCAT: court occured 1 times 
+  GCAT: fell occured 1 times 
+All categories: ECAT GCAT 
+Total number of documents:2
+Total number of distinct words:5
+val it = () : unit
+
+- TestSeq.print_stats TestSeq.dups_train;
+Number of documents by category:
+  ECAT 1
+  GCAT 1
+Number of words by category:
+  ECAT 4
+  GCAT 4
+Frequencies:
+  ECAT: price occured 2 times 
+  ECAT: stock occured 2 times 
+  GCAT: congress occured 2 times 
+  GCAT: court occured 2 times 
+All categories: ECAT GCAT 
+Total number of documents:2
+Total number of distinct words:4

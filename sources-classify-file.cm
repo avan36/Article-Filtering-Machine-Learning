@@ -1,0 +1,16 @@
+group is
+$/basis.cm
+../src/sequence-uncurried/sources.cm
+dict.sig
+sequtils.sig
+mapreduce.sig
+mapreduce.sml
+dict.sml
+sequtils.sml
+filemr.sml
+extractcombine.sig
+extractcombine.sml
+classify.sig
+classify.sml
+testclassify.sml
+testclassify-file.sml
